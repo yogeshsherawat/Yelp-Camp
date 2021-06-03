@@ -1,0 +1,29 @@
+.loginInput{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+  }
+  .login-Btn {
+    background-color: #212529;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+  }
+  .login-Btn:hover {
+    opacity: 0.8;
+  }
+  .Logincontainer {
+    align-self: center;
+    width: 40%;
+    margin-left: 30%;
+  }
+  .loginH1{
+      text-align: center;
+      color:#212529;
+  }

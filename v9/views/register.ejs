@@ -1,0 +1,10 @@
+<% include partials/header.ejs %>
+<h1 class="loginH1">Register</h1>
+<form action="/register" method="POST">
+    <div class="Logincontainer">
+    <input class="loginInput" type="text" name="username" placeholder="Enter Username" required >
+    <input class="loginInput" type="password" name="password" placeholder="Enter Password" required>
+    <button class="login-Btn">Register</button>
+</div>
+</form>
+<% include partials/footer.ejs %>
